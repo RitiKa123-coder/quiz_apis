@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User
 from tastypie.resources import ModelResource
-from tastypie_example.blog.models import Post
+from tastypie_example.quiz.models import Post
 
 
 class UserResource(ModelResource):

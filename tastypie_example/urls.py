@@ -5,7 +5,7 @@ from django.contrib import admin
 admin.autodiscover()
 
 from tastypie.api import Api
-from tastypie_example.blog.resources import PostResource, UserResource
+from tastypie_example.quiz.resources import PostResource, UserResource
 
 v1_api = Api(api_name='v1')
 v1_api.register(UserResource())

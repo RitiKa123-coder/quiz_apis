@@ -124,7 +124,7 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'tastypie',
     # Custom
-    'tastypie_example.blog',
+    'tastypie_example.quiz',
 )
 
 # A sample logging configuration. The only tangible logging
